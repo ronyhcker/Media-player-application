@@ -1,0 +1,79 @@
+{
+  "app": {
+    "name": "NOVA Smart Media Player",
+    "version": "1.0.0",
+    "theme": "dark-neon"
+  },
+
+  "settings": {
+    "volume": 80,
+    "shuffle": false,
+    "repeat": false,
+    "autoplay": true,
+    "visualizer": true,
+    "lastTrackIndex": 0
+  },
+
+  "playlist": [
+    {
+      "id": 1,
+      "name": "Neon Lights",
+      "filename": "neon_lights.mp3",
+      "type": "audio",
+      "rawType": "mp3",
+      "url": "/media/neon_lights.mp3",
+      "artist": "Unknown Artist",
+      "album": "Unknown Album",
+      "duration": "3:45",
+      "size_kb": 4500,
+      "added_on": "2024-01-01"
+    },
+    {
+      "id": 2,
+      "name": "Cyber Drive",
+      "filename": "cyber_drive.mp3",
+      "type": "audio",
+      "rawType": "mp3",
+      "url": "/media/cyber_drive.mp3",
+      "artist": "Unknown Artist",
+      "album": "Unknown Album",
+      "duration": "4:12",
+      "size_kb": 5200,
+      "added_on": "2024-01-02"
+    },
+    {
+      "id": 3,
+      "name": "Sample Video",
+      "filename": "sample_video.mp4",
+      "type": "video",
+      "rawType": "mp4",
+      "url": "/media/sample_video.mp4",
+      "artist": "Unknown",
+      "album": "",
+      "duration": "2:30",
+      "size_kb": 15000,
+      "added_on": "2024-01-03"
+    }
+  ],
+
+  "history": [
+    {
+      "track_id": 1,
+      "played_at": "2024-01-05 10:30:00",
+      "duration_played": "3:45"
+    },
+    {
+      "track_id": 2,
+      "played_at": "2024-01-05 10:34:00",
+      "duration_played": "4:12"
+    }
+  ],
+
+  "stats": {
+    "total_tracks": 3,
+    "total_played": 2,
+    "favorite_track_id": 1,
+    "last_played_id": 2,
+    "last_session": "2024-01-05 10:30:00"
+  }
+}
