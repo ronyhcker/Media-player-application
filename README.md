@@ -1,8 +1,9 @@
 # 🎵 NOVA — Smart Media Player
 
-A dark/neon themed smart media player supporting **MP3 & MP4**, with visualizer, playlist, and Java backend.
+## 🌐 Live Demo
+👉 [Click here to open the app](https://media-player-application.onrender.com)
 
----
+A dark/neon themed smart media player...
 
 ## 📁 Project Structure
 
@@ -28,7 +29,7 @@ javac NovaMediaServer.java
 java NovaMediaServer
 ```
 
-Server starts at: **http://localhost:8080**
+Server starts at: (https://media-player-application.onrender.com)
 
 > Requires Java 11+ (uses `com.sun.net.httpserver`)
 
