@@ -30,7 +30,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  */
 public class NovaMediaServer {
 
-    static final int    PORT       = 8080;
+    static final int PORT = Integer.parseInt(System.getenv().getOrDefault("PORT", "10000"));
     static final String MEDIA_DIR  = "media_files";
     static final String STATIC_DIR = ".";
     static final String DB_FILE    = "nova_database.json";
